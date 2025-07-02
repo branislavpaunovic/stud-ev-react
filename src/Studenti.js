@@ -7,6 +7,7 @@ const Studenti = () => {
 
   return (
     <div className="App">
+      <div className='studenti-page'>
       <h1>Lista Studenata</h1>
       <div className="scrollZona">
         <table className="tabelaStudenata">
@@ -49,6 +50,7 @@ const Studenti = () => {
             ))}
           </tbody>
         </table>
+      </div>
       </div>
     </div>
   );
