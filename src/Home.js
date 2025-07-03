@@ -7,7 +7,7 @@ export default function Home() {
     <div
       className="hero"
       style={{
-        backgroundImage: "url('/Studenti.jpg')",
+        backgroundImage: "url('./Studenti.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         width: "100vw",
@@ -15,7 +15,7 @@ export default function Home() {
       }}
     >
       <div className="overlay" />
-      <img src="/bapuss.png" alt="Logo škole" className="logo-skole" />
+      <img src="./bapuss.png" alt="Logo škole" className="logo-skole" />
       <div className="hero-text">
         <h1>Dobrodošli u aplikaciju Studentska evidencija</h1>
         <h2>Seminarski rad iz predmeta:</h2>
